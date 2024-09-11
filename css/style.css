@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -271,6 +275,45 @@ color:#fff;
   justify-content: center;
 }
 
+
+/* CTA */
+.cta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #fff;
+  background-color: #0eb4c1;
+}
+
+.cta-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 36px;
+ }
+
+ .cta-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .cta-links-item:not(:last-child) {
+  margin-right: 40px;
+ }
+
+ .main-link-outline {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+ }
+
+.main-link-outline:hover {
+  background-color: #de2e54;
+  color: #fff;
+  border-color: transparent;
+}
 
 /* SITE-FOOTER */
 .site-footer {
